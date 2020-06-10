@@ -61,7 +61,7 @@ const scrapStream = async () => {
     const items = searchResults
     .map((idx, el) => {
       const elementSelector = selector(el);
-      return extractDeal(elementSelector);
+      return extractItem(elementSelector);
     })
     .get();
 
