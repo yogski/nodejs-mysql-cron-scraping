@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-piagg-stokdarah",
+  "version": "1.0.0",
+  "description": "Automated PIAgg (Public Information Aggregator) worker. Main task: scraping data from websites that provide blood availability information in Indonesia (e.g Palang Merah Indonesia), then save it to DB for further processing. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scraping",
+    "aggregator",
+    "cronjob",
+    "publicsector"
+  ],
+  "author": "Yogi Saputro",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
